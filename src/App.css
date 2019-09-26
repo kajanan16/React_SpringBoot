@@ -1,0 +1,79 @@
+body, html {
+	height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #222222;
+  height:50px;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tab{
+ margin-left: 30%;
+ margin-top: 30px;
+ border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  
+}
+input[type=text], select ,input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.set{
+    height: 100%; 
+  background-position: center;
+    background-size: cover;
+position: center;
+}
+.todo{
+  background-image: url("/world.png");
+  height: 100%; 
+  background-position: center;
+  background-size: cover;
+	position: center;
+}
+
